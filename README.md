@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/header.svg" alt="MIKOTRON — Marlon R. Pinpin, Full-stack developer" width="100%">
+<img src="assets/header.svg" alt="MIKO.DEV — Marlon R. Pinpin, Full-stack developer" width="100%">
 
 <sub><a href="https://www.linkedin.com/in/marlon-pinpin/">LINKEDIN</a></sub>
 
