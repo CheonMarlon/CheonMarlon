@@ -1,0 +1,52 @@
+name: Generate arcade assets
+
+on:
+  schedule:
+    - cron: "17 0 * * *"   # daily at 00:17 UTC
+  workflow_dispatch:        # manual run from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/arcade.yml"
+      - "scripts/build-stats.mjs"
+      - "scripts/lib.mjs"
+
+permissions:
+  contents: write           # only used to push generated files to the `output` branch
+
+concurrency:
+  group: arcade
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Snake (dark + light)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?color_snake=#dcdcdc&color_dots=#161a17,#0f3d1d,#17692e,#24a64a,#33ff66
+            dist/snake-light.svg?palette=github-light&color_snake=#111111
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Live stats panel
+        run: node scripts/build-stats.mjs
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
