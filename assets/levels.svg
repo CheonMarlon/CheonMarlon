@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 338" width="800" height="338" fill="none" role="img" aria-label="Route: 2027 Expected graduation; 2026 Built three projects; SEP 2025 IT Seminar technical volunteer; MID 2025 Started BRGY-AI capstone; FEB 2025 First place, Battle of the Codes">
+<style>
+.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}
+.rise{animation:rise .6s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(6px)}}
+.blink{animation:blink 1.2s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.sway{animation:sway 1.6s steps(1) infinite}
+@keyframes sway{25%{transform:translateX(5px)}75%{transform:translateX(-5px)}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1s cubic-bezier(.2,.7,.2,1) both}
+@keyframes grow{from{transform:scaleX(0)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="799" height="337" rx="4" fill="#0a0a0a" stroke="#262a27"/>
+<line x1="132" y1="14" x2="132" y2="324" stroke="#262a27"/><g class="rise" style="animation-delay:0.08s">
+<text class="m" x="28" y="46" font-size="12" fill="#7c817d" letter-spacing="2">2027</text>
+<rect x="128" y="38" width="8" height="8" fill="#33ff66"/>
+<text class="m" x="152" y="46" font-size="15" fill="#dcdcdc" >Expected graduation</text><text class="m" x="152" y="68" font-size="12.5" fill="#7c817d" >BSIT · Universidad de Manila</text></g><g class="rise" style="animation-delay:0.2s">
+<text class="m" x="28" y="108" font-size="12" fill="#7c817d" letter-spacing="2">2026</text>
+<rect x="128" y="100" width="8" height="8" fill="#3b403c"/>
+<text class="m" x="152" y="108" font-size="15" fill="#dcdcdc" >Built three projects</text><text class="m" x="152" y="130" font-size="12.5" fill="#7c817d" >Seminar system · Dear Stranger · OBStellar</text></g><g class="rise" style="animation-delay:0.32s">
+<text class="m" x="28" y="170" font-size="12" fill="#7c817d" letter-spacing="2">SEP 2025</text>
+<rect x="128" y="162" width="8" height="8" fill="#3b403c"/>
+<text class="m" x="152" y="170" font-size="15" fill="#dcdcdc" >IT Seminar technical volunteer</text><text class="m" x="152" y="192" font-size="12.5" fill="#7c817d" >A/V setup and live connectivity fixes · UDM</text></g><g class="rise" style="animation-delay:0.44s">
+<text class="m" x="28" y="232" font-size="12" fill="#7c817d" letter-spacing="2">MID 2025</text>
+<rect x="128" y="224" width="8" height="8" fill="#3b403c"/>
+<text class="m" x="152" y="232" font-size="15" fill="#dcdcdc" >Started BRGY-AI capstone</text><text class="m" x="152" y="254" font-size="12.5" fill="#7c817d" >Next.js · Express · Supabase · React Native</text></g><g class="rise" style="animation-delay:0.5599999999999999s">
+<text class="m" x="28" y="294" font-size="12" fill="#7c817d" letter-spacing="2">FEB 2025</text>
+<rect x="128" y="286" width="8" height="8" fill="#3b403c"/>
+<text class="m" x="152" y="294" font-size="15" fill="#dcdcdc" >First place, Battle of the Codes</text><text class="m" x="152" y="316" font-size="12.5" fill="#7c817d" >Lead programmer · 12 Python challenges in under 60 min</text></g>
+</svg>

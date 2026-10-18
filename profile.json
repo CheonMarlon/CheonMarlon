@@ -1,0 +1,117 @@
+{
+  "handle": "CheonMarlon",
+  "name": "Marlon R. Pinpin",
+  "alias": "bymiko",
+  "title": "Full-stack developer",
+  "location": "Manila, Philippines",
+  "year": 2026,
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/marlon-pinpin/",
+    "email": null
+  },
+  "about": {
+    "lines": [
+      "4th-year BSIT student at Universidad de Manila, expected 2027.",
+      "Full-stack developer building web, mobile and cloud-based applications.",
+      "Built an AI-powered RAG platform for a local government unit (Barangay 134)."
+    ],
+    "rows": [
+      [
+        "FOCUS",
+        "Web apps · React Native mobile · RAG systems · Cloud deployment"
+      ],
+      [
+        "HIGHLIGHT",
+        "First place, Battle of the Codes (CET Week), Feb 2025"
+      ],
+      [
+        "LOCATION",
+        "Manila, Philippines"
+      ]
+    ]
+  },
+  "projects": [
+    {
+      "name": "BRGY-AI",
+      "meta": "CAPSTONE · MID 2025 – PRESENT",
+      "repo": null,
+      "desc": "RAG-based legal info and dispute resolution assistant for Barangay 134. Helps officials look up legal information and draft documents, with automated PDF certificates and a bilingual (Tagalog/English) knowledge base admin. Spans a Next.js admin dashboard, an Express backend, Supabase and a React Native resident app.",
+      "tech": "NEXT.JS · NODE.JS · TYPESCRIPT · EXPRESS · SUPABASE · REACT NATIVE"
+    },
+    {
+      "name": "Seminar Attendance & Feedback System",
+      "meta": "AUTOMATION · 2026",
+      "repo": null,
+      "desc": "Automated seminar workflow: attendance and feedback come in through Google Forms into Sheets, then certificates are generated and emailed, stored in Drive, and narrative reports are drafted from the collected data.",
+      "tech": "GOOGLE APPS SCRIPT · FORMS · SHEETS · DRIVE · GMAIL"
+    },
+    {
+      "name": "Dear Stranger",
+      "meta": "SOLE DEVELOPER · 2026",
+      "repo": null,
+      "desc": "Anonymous letter-sharing platform with no user accounts: submit, discover, shuffle, paginate and archive letters. Deployed on an Azure Virtual Machine for public access.",
+      "tech": "HTML · CSS · JAVASCRIPT · FIREBASE FIRESTORE · AZURE VM"
+    },
+    {
+      "name": "OBStellar",
+      "meta": "SOLE DEVELOPER · 2026",
+      "repo": null,
+      "desc": "Native Android app for viewing and exploring the coordinates of real-world constellations.",
+      "tech": "KOTLIN · ANDROID"
+    }
+  ],
+  "route": [
+    [
+      "2027",
+      "Expected graduation",
+      "BSIT · Universidad de Manila"
+    ],
+    [
+      "2026",
+      "Built three projects",
+      "Seminar system · Dear Stranger · OBStellar"
+    ],
+    [
+      "SEP 2025",
+      "IT Seminar technical volunteer",
+      "A/V setup and live connectivity fixes · UDM"
+    ],
+    [
+      "MID 2025",
+      "Started BRGY-AI capstone",
+      "Next.js · Express · Supabase · React Native"
+    ],
+    [
+      "FEB 2025",
+      "First place, Battle of the Codes",
+      "Lead programmer · 12 Python challenges in under 60 min"
+    ]
+  ],
+  "stack": [
+    [
+      "LANGUAGES",
+      "JavaScript · TypeScript · Python · Kotlin · SQL · HTML · CSS"
+    ],
+    [
+      "FRONTEND",
+      "React · Next.js · React Native · Vite · Tailwind CSS"
+    ],
+    [
+      "BACKEND",
+      "Node.js · Express.js · Flask · REST APIs · JWT / Firebase Auth"
+    ],
+    [
+      "DATA + CLOUD",
+      "PostgreSQL · MySQL · Supabase · Firestore · Azure"
+    ],
+    [
+      "TOOLS",
+      "Git · GitHub · VS Code · Postman · Figma · Google Apps Script"
+    ],
+    [
+      "TRAINING",
+      "IBM SkillsBuild · Cisco Networking Academy"
+    ]
+  ],
+  "gameTitle": "MIKOTRON"
+}

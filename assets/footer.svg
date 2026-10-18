@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 64" width="800" height="64" fill="none" role="img" aria-label="Credit 01. Manila, Philippines">
+<style>
+.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}
+.rise{animation:rise .6s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(6px)}}
+.blink{animation:blink 1.2s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.sway{animation:sway 1.6s steps(1) infinite}
+@keyframes sway{25%{transform:translateX(5px)}75%{transform:translateX(-5px)}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1s cubic-bezier(.2,.7,.2,1) both}
+@keyframes grow{from{transform:scaleX(0)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="799" height="63" rx="4" fill="#0a0a0a" stroke="#262a27"/>
+
+<text class="m blink" x="28" y="38" font-size="13" fill="#33ff66" letter-spacing="3">CREDIT 01  ·  PRESS START</text>
+<text class="m" x="772" y="38" font-size="12" fill="#7c817d" text-anchor="end">Manila, Philippines</text>
+</svg>

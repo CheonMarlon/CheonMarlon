@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 238" width="800" height="238" fill="none" role="img" aria-label="About Marlon R. Pinpin">
+<style>
+.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}
+.rise{animation:rise .6s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(6px)}}
+.blink{animation:blink 1.2s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.sway{animation:sway 1.6s steps(1) infinite}
+@keyframes sway{25%{transform:translateX(5px)}75%{transform:translateX(-5px)}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1s cubic-bezier(.2,.7,.2,1) both}
+@keyframes grow{from{transform:scaleX(0)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="799" height="237" rx="4" fill="#0a0a0a" stroke="#262a27"/>
+<text class="m rise" style="animation-delay:0.05s" x="28" y="38" font-size="15" fill="#dcdcdc">4th-year BSIT student at Universidad de Manila, expected 2027.</text><text class="m rise" style="animation-delay:0.15000000000000002s" x="28" y="66" font-size="15" fill="#7c817d">Full-stack developer building web, mobile and cloud-based applications.</text><text class="m rise" style="animation-delay:0.25s" x="28" y="94" font-size="15" fill="#7c817d">Built an AI-powered RAG platform for a local government unit (Barangay 134).</text><line x1="28" y1="124" x2="772" y2="124" stroke="#262a27"/><g class="rise" style="animation-delay:0.4s"><text class="m" x="28" y="154" font-size="11" fill="#7c817d" letter-spacing="2">FOCUS</text><text class="m" x="140" y="154" font-size="14" fill="#dcdcdc" >Web apps · React Native mobile · RAG systems · Cloud deployment</text></g><g class="rise" style="animation-delay:0.5s"><text class="m" x="28" y="184" font-size="11" fill="#7c817d" letter-spacing="2">HIGHLIGHT</text><text class="m" x="140" y="184" font-size="14" fill="#dcdcdc" >First place, Battle of the Codes (CET Week), Feb 2025</text></g><g class="rise" style="animation-delay:0.6000000000000001s"><text class="m" x="28" y="214" font-size="11" fill="#7c817d" letter-spacing="2">LOCATION</text><text class="m" x="140" y="214" font-size="14" fill="#dcdcdc" >Manila, Philippines</text></g>
+</svg>

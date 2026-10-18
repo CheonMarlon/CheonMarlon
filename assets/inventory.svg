@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 236" width="800" height="236" fill="none" role="img" aria-label="Technical stack: LANGUAGES: JavaScript · TypeScript · Python · Kotlin · SQL · HTML · CSS. FRONTEND: React · Next.js · React Native · Vite · Tailwind CSS. BACKEND: Node.js · Express.js · Flask · REST APIs · JWT / Firebase Auth. DATA + CLOUD: PostgreSQL · MySQL · Supabase · Firestore · Azure. TOOLS: Git · GitHub · VS Code · Postman · Figma · Google Apps Script. TRAINING: IBM SkillsBuild · Cisco Networking Academy">
+<style>
+.m{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}
+.rise{animation:rise .6s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(6px)}}
+.blink{animation:blink 1.2s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.sway{animation:sway 1.6s steps(1) infinite}
+@keyframes sway{25%{transform:translateX(5px)}75%{transform:translateX(-5px)}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1s cubic-bezier(.2,.7,.2,1) both}
+@keyframes grow{from{transform:scaleX(0)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x=".5" y=".5" width="799" height="235" rx="4" fill="#0a0a0a" stroke="#262a27"/>
+<g class="rise" style="animation-delay:0s"><text class="m" x="28" y="42" font-size="11" fill="#7c817d" letter-spacing="2">LANGUAGES</text><text class="m" x="170" y="42" font-size="14.5" fill="#dcdcdc" >JavaScript · TypeScript · Python · Kotlin · SQL · HTML · CSS</text></g><g class="rise" style="animation-delay:0.06s"><text class="m" x="28" y="76" font-size="11" fill="#7c817d" letter-spacing="2">FRONTEND</text><text class="m" x="170" y="76" font-size="14.5" fill="#dcdcdc" >React · Next.js · React Native · Vite · Tailwind CSS</text></g><g class="rise" style="animation-delay:0.12s"><text class="m" x="28" y="110" font-size="11" fill="#7c817d" letter-spacing="2">BACKEND</text><text class="m" x="170" y="110" font-size="14.5" fill="#dcdcdc" >Node.js · Express.js · Flask · REST APIs · JWT / Firebase Auth</text></g><g class="rise" style="animation-delay:0.18s"><text class="m" x="28" y="144" font-size="11" fill="#7c817d" letter-spacing="2">DATA + CLOUD</text><text class="m" x="170" y="144" font-size="14.5" fill="#dcdcdc" >PostgreSQL · MySQL · Supabase · Firestore · Azure</text></g><g class="rise" style="animation-delay:0.24s"><text class="m" x="28" y="178" font-size="11" fill="#7c817d" letter-spacing="2">TOOLS</text><text class="m" x="170" y="178" font-size="14.5" fill="#dcdcdc" >Git · GitHub · VS Code · Postman · Figma · Google Apps Script</text></g><g class="rise" style="animation-delay:0.3s"><text class="m" x="28" y="212" font-size="11" fill="#7c817d" letter-spacing="2">TRAINING</text><text class="m" x="170" y="212" font-size="14.5" fill="#dcdcdc" >IBM SkillsBuild · Cisco Networking Academy</text></g>
+</svg>
